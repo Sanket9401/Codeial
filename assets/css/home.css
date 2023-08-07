@@ -1,0 +1,29 @@
+#home-container {
+  display: flex;
+  width: 100%;
+}
+#home-container #feed-posts {
+  width: 70%;
+  padding: 10px;
+}
+#home-container #user-friends {
+  width: 30%;
+  padding: 10px;
+  border-left: 1px solid lightgrey;
+  height: 100%;
+}
+
+.comments {
+  margin: 10px 0px;
+}
+.comments #content {
+  display: flex;
+  margin: 3px 0px 3px 0px;
+}
+.comments #content .like {
+  margin-left: 10px;
+}
+
+.like {
+  text-decoration: none;
+}

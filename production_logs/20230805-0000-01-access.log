@@ -1,0 +1,5 @@
+::ffff:127.0.0.1 - - [04/Aug/2023:17:24:44 +0000] "GET / HTTP/1.1" 200 3533 "http://127.0.0.1:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [04/Aug/2023:17:24:47 +0000] "GET /user/sign-in HTTP/1.1" 304 - "http://127.0.0.1:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [04/Aug/2023:17:24:50 +0000] "POST /user/create-session HTTP/1.1" 302 46 "http://127.0.0.1:8000/user/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [04/Aug/2023:17:24:50 +0000] "GET / HTTP/1.1" 200 5923 "http://127.0.0.1:8000/user/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [04/Aug/2023:17:25:35 +0000] "GET /user/profile/64cd2c5bbb2abfb52c509519 HTTP/1.1" 200 1649 "http://127.0.0.1:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
