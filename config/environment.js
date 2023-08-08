@@ -21,14 +21,14 @@ const development = {
         port : '587',
         secure : false,
         auth : {
-            user : 'sadsdasd@gh.com',
-            pass : '111'
+            user: env_special.gmail_username,
+            pass: env_special.gmail_password
         }
     },
-    google_client_id : "254996876746-3ms4maihskqvid1ocecj0eeu11i343d9.apps.googleusercontent.com",
-    google_client_secret : "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",
-    google_callback_url : "http://127.0.0.1:8000/user/auth/google/callback",
-    jwt_secret : "codeial",
+       google_client_id: env_special.client_id,
+       google_client_secret: env_special.client_secret,
+       google_callback_url: env_special.callback_url,
+       jwt_secret : "codeial",
     morgan : {
         mode : 'dev',
         options : {stream : accessLogStream}
